@@ -163,7 +163,7 @@ button:focus {
   display: inline-block;
   padding: 0px 38px;
   color: #222222;
-  background: #fff;
+  background: #f4f8ff;
   font-family: "Raleway", sans-serif;
   font-size: 13px;
   font-weight: 600;
@@ -847,18 +847,19 @@ button:focus {
   background-size: cover;
   height: 350px;
   border-radius: 10px;
+  visibility: display;
   z-index: 1; }
   .video-left.overlay {
     border-radius: 10px; }
     .video-left.overlay:after {
-      background: #000;
-      opacity: .3;
+      background: #ffffff ;
+      opacity: 100;
       border-radius: 10px; }
   .video-left .video-inner {
     height: 100%; }
   .video-left .play-btn {
     z-index: 2; }
-  @media (max-width: 800px) {
+  @media (max-width: 560px) {
     .video-left {
       margin-top: 100px; } }
 
@@ -949,7 +950,9 @@ button:focus {
       -o-transition: all 0.3s ease 0s;
       transition: all 0.3s ease 0s; }
     .about-area .about-inner .single-success p {
-      margin: 0; }
+      margin: 0; 
+	  color: #777777;
+	  }
     .about-area .about-inner .single-success:hover {
       box-shadow: 0 10px 30px rgba(39, 0, 110, 0.3);
       color: #fff; }
